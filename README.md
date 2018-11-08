@@ -1,4 +1,4 @@
-# Bad-passwords-and-the-NIST-guidelines (https://www.datacamp.com/projects/68)
+# Bad-passwords-and-the-NIST-guidelines 
 
 Check what passwords fail to conform to the National Institute of Standards and Technology password guidelines.
 
@@ -12,3 +12,6 @@ Project Tasks
 7 Passwords should not be repetitive
 8 All together now!
 9 Otherwise, the password should be up to the user
+
+
+https://www.datacamp.com/projects/68
