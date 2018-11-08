@@ -4,7 +4,7 @@ rm(list = ls())
 library(tidyverse)
 
 # Loading in datasets/users.csv 
-users <- read_csv("C:\\Users\\eccentric\\Google Drive\\Semester 1\\DA\\Projects\\Bad passwords and the NIST guidelines\\datasets\\users.csv")
+users <- read_csv("users.csv")
 
 # Counting how many users we've got
 length(users$user_name)
@@ -37,7 +37,7 @@ users[1:12,]
 #3. Common passwords people use
 #-----------------------------------------------
 # Reading in the top 10000 passwords
-common_passwords <- read_lines("C:\\Users\\eccentric\\Google Drive\\Semester 1\\DA\\Projects\\Bad passwords and the NIST guidelines\\datasets\\10_million_password_list_top_10000.txt")
+common_passwords <- read_lines("\\datasets\\10_million_password_list_top_10000.txt")
 
 # Taking a look at the top 100
 common_passwords[1:100]
@@ -60,7 +60,7 @@ users[1:12,]
 #-----------------------------------------------
 
 # Reading in a list of the 10000 most common words
-words <- read_lines("C:\\Users\\eccentric\\Google Drive\\Semester 1\\DA\\Projects\\Bad passwords and the NIST guidelines\\datasets\\google-10000-english.txt")
+words <- read_lines("\\datasets\\google-10000-english.txt")
 
 
 # Flagging the users with passwords that are common words
