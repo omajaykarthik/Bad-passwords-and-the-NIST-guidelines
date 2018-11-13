@@ -13,5 +13,3 @@ Project Tasks
 8 All together now!
 9 Otherwise, the password should be up to the user
 
-
-https://www.datacamp.com/projects/68
